@@ -1,0 +1,13 @@
+disciplineTypes:
+  xray:
+    displayItem: "SULFUR"
+  nuker:
+    displayItem: "IRON_PICKAXE"
+  auto_fishing:
+    displayItem: "FISHING_ROD"
+  kill_aura:
+    displayItem: "DIAMOND_SWORD"
+  abusing_chat:
+    displayItem: "PAPER"
+  other:
+    displayItem: "SULFUR"

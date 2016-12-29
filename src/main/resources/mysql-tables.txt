@@ -1,0 +1,23 @@
+Please insert the tables that you need for the different packages, as well as describing them.
+
+Notes:
+ - If you need to store an UUID, the appropriate type of column is VARCHAR 36 (32 alphanumeric chars + 4 hypens)
+
+deathban:
+  accounts:
+    - id VARCHAR 36
+    - lives INT
+    - current_ban BIGINT
+
+staff:
+  discipline:
+    - report VARCHAR 10
+    - reportee VARCHAR 36
+    - reporter VARCHAR  16
+    - reportType VARCHAR 16
+    - reason VARCHAR 255
+    - reportTime BIGINT
+
+playerdata
+  - name VARCHAR 16
+  - uuid VARCHAR 36

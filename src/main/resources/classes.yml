@@ -1,0 +1,81 @@
+classes:
+  bard:
+    general:
+      energypersec: 5
+    constant:
+      SPEED:
+        amplifier: 1
+      DAMAGE_RESISTANCE:
+        amplifier: 0
+      REGENERATION:
+        amplifier: 1
+    passiveitems:
+      SUGAR:
+        potioneffect: "SPEED"
+        amplifier: 1
+      BLAZE_POWDER:
+        potioneffect: "INCREASE_DAMAGE"
+        amplifier: 1
+      FEATHER:
+        potioneffect: "JUMP"
+        amplifier: 1
+      IRON_INGOT:
+        potioneffect: "DAMAGE_RESISTANCE"
+        amplifier: 0
+    activeitems:
+      SUGAR:
+        potioneffect: "SPEED"
+        amplifier: 1
+        enemies: false
+        duration: 5
+        arg: 5
+      BLAZE_POWDER:
+        potioneffect: "INCREASE_DAMAGE"
+        amplifier: 0
+        enemies: false
+        duration: 5
+        arg: 45
+      FEATHER:
+        potioneffect: "JUMP"
+        amplifier: 6
+        enemies: false
+        duration: 5
+        arg: 25
+      IRON_INGOT:
+        potioneffect: "DAMAGE_RESISTANCE"
+        amplifier: 2
+        enemies: false
+        duration: 5
+        arg: 40
+      SPIDER_EYE:
+        potioneffect: "WITHER"
+        amplifier: 0
+        enemies: true
+        arg: 45
+        duration: 5
+  miner:
+    general:
+      ylevel: 20
+    constant:
+      NIGHT_VISION:
+        amplifier: 0
+      FIRE_RESISTANCE:
+        amplifier: 0
+      FAST_DIGGING:
+        amplifier: 1
+  archer:
+    general:
+      distanceforextradmg: 10
+      extradmgpercent: 20
+      extradmgduration: 10
+    constant:
+      SPEED:
+        amplifier: 2
+      DAMAGE_RESISTANCE:
+        amplifier: 1
+    activeitems:
+      SUGAR:
+        potioneffect: "SPEED"
+        amplifier: 5
+        duration: 30
+        arg: 60

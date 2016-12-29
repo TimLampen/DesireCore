@@ -1,0 +1,31 @@
+name: Core
+main: com.desiremc.core.DesireCore
+version: 1.0-A
+authors: [Sneling NET, Viraj, Timothy]
+depend: [EffectLib, Vault]
+commands:
+  deathban:
+    description: (DB) - DesireCore
+  lives:
+    description: (DB) - DesireCore
+  key:
+    description: (K) - DesireCore
+  wrench:
+    description: (W) - DesireCore
+  alerts:
+    description: (A) - DesireCore
+  enderchest:
+    description: (EC) - DesireCore
+  warn:
+    description: (W) - DesireCore
+  chat:
+    description: (C) - DesireCore
+  report:
+    description: (R) - DesireCore
+  staff:
+    aliases: [staffmode]
+    description: (S) - DesireCore
+  stafflist:
+    description: (SL) - DesireCore
+  logout:
+    description: (CL) - DesireCore

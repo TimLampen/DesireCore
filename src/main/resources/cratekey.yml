@@ -1,0 +1,65 @@
+enabled: true
+keys:
+  iron:
+    displayName: "&aIron Key :)"
+    lore:
+    - "this"
+    - "is"
+    - "a"
+    - "key"
+    data: "0"
+    material: 265
+    rewards:
+      a:
+        material: 1
+        data: "0"
+        weight: 5
+        amount: 5
+        enchants:
+        - "DIG_SPEED:5"
+        - "DURABILITY:6"
+      b:
+        material: 2
+        data: "0"
+        weight: 5
+        amount: 2
+      c:
+        material: 35
+        data: "10"
+        weight: 2
+        amount: 64
+        #for blue wool
+  diamond:
+    displayName: "&bDiamond Key :)"
+    lore:
+    - "this"
+    - "is"
+    - "a"
+    - "key"
+    data: "0"
+    material: 265
+    rewards:
+      a:
+        material: 1
+        data: "0"
+        weight: 5
+        amount: 5
+      b:
+        material: 2
+        data: "0"
+        weight: 5
+        amount: 2
+      c:
+        material: 35
+        data: "10"
+        weight: 2
+        amount: 64
+        #for blue wool
+crate:
+  nametag: "&a&lUniversal Crate"
+  size: 1
+  particles: 40
+  period: 3
+  particle: "REDSTONE"
+  particlecolor: "orange"
+  rewardname: "&6Chance: &a%CHANCE%%"
